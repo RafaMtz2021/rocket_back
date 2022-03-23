@@ -1,9 +1,10 @@
 const Sequelize = require('sequelize');
+require('dotenv').config()
 
-const db = new Sequelize('testing_ali_fullstack', 'root', 'root', {
-//const db = new Sequelize(DB_NAME,DB_USER,DB_PASSWORD, {  
-  host: '127.0.0.1',
-  //host: DB_HOST,
+//const db = new Sequelize('testing_ali_fullstack', 'root', 'root', {
+const db = new Sequelize(process.env.DB_NAME,process.env.DB_USER,process.env.DB_PASSWORD, {  
+  //host: '127.0.0.1',
+  host: process.env.DB_HOST,
   dialect: 'mysql',
   port: '3306',
   define: {
