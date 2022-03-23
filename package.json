@@ -1,7 +1,7 @@
 {
   "name": "rocket-back",
   "version": "1.0.0",
-  "description": "Rocket-Back Challenge NodeJs MySQL",
+  "description": "Rocket-Back Challenge NodeJS MySQL",
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
