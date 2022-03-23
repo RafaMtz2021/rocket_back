@@ -1,0 +1,21 @@
+{
+  "name": "rocket-back",
+  "version": "1.0.0",
+  "description": "Rocket-Back Challenge NodeJs MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Rafael Martínez Reyes",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
